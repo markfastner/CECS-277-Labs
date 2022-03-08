@@ -1,0 +1,33 @@
+import java.util.Scanner;
+import java.util.InputMismatchException;
+
+public class DataReader
+{
+   public static void main(String[] args)
+   {
+      Scanner in = new Scanner(System.in);
+      
+      int chances = 0;
+      boolean done = false;
+      double sum = 0;
+      
+      while (!done)
+      {
+         double value = 0;                  
+         try
+         {  //Input the double value
+            //Accumulate
+            
+         }   
+         catch (_____________________________e)
+         {   
+           //Display "Input error. Try again."
+           //Read the bad input
+           //other code
+            
+         }
+      }
+      //Display the sum
+      
+   }
+}
